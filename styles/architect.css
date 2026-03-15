@@ -7,3 +7,31 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* navbar styles */
+.display-flex {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.item-link {
+    text-decoration: none;
+}
+
+/* dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray {
+    color: #727272;
+}
+
+.btn-bg {
+    color: #FF900E;
+}
