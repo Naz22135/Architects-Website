@@ -101,7 +101,8 @@
 /* main  styles */
 /* feature list with images */
 main {
-    max-width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .team-list-section {
@@ -134,7 +135,8 @@ main {
 }
 
 .list-title,
-.feature-title {
+.feature-title,
+.facts-title {
     font-size: 2.8rem;
     font-weight: bold;
     margin-bottom: 24px;
@@ -158,6 +160,7 @@ main {
     padding: 21px;
 }
 
+
 .features-types {
     max-width: 586px;
     border-radius: 8px;
@@ -165,7 +168,7 @@ main {
 }
 
 .card {
-    box-shadow: 10px 10px 10px rgb(243, 242, 242);
+    box-shadow: 10px 10px 10px 10px rgb(243, 242, 242);
     padding: 30px;
     border-radius: 8px;
 
@@ -200,9 +203,6 @@ main {
     font-weight: bold;
     text-align: center;
     padding: 46px;
-
-
-
 }
 
 .experience {
@@ -210,6 +210,53 @@ main {
     font-size: medium;
 
 }
+
+/* facts styles */
+.facts-title {
+    margin-top: 130px;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    margin-top: 100px;
+    margin-left: 50px;
+
+
+}
+
+.facts-card {
+    border: 1px solid #FF900E;
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number {
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+
+}
+
+.fact-name {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
+
+.fact-des {
+    max-width: 540px;
+}
+
+
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
