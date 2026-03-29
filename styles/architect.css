@@ -264,8 +264,29 @@ main {
 
 }
 
+/* sponsor-img styles */
+.sponsor-img-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
 
+/* footer styles */
+.reserved {
+    background-color: rgba(255, 244, 231, 1);
+    border-radius: 8px;
+    max-width: 1440px;
+    margin-bottom: 216px;
+    margin: 0 auto;
+}
 
+.reserved-des {
+    text-align: center;
+    font-size: 20px;
+    padding: 39px 410px 37px 410px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
