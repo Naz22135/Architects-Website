@@ -130,7 +130,7 @@ main {
     max-width: 537px;
     height: 304px;
     margin-left: 73px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
 
 }
 
@@ -292,8 +292,17 @@ main {
 @media screen and (max-width: 576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .team-list-section {
         flex-direction: column;
+    }
+
+    .teams-container {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-list {
+        margin-left: 30px;
     }
 }
 
