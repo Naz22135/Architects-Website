@@ -297,14 +297,31 @@ main {
         flex-direction: column;
     }
 
-    .teams-container {
+    .teams-container,
+    .facts-container {
         grid-template-columns: 1fr;
+    }
+
+    .facts-container {
+        justify-items: center;
     }
 
     .feature-list {
         margin-left: 30px;
     }
+
+
 }
+
+/* medium sizes devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .team-list-section {
+        flex-direction: column;
+    }
+
+}
+
+
 
 .hide {
     display: none;
