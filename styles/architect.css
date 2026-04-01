@@ -130,7 +130,6 @@ main {
     max-width: 537px;
     height: 304px;
     margin-left: 73px;
-    /* margin-top: 200px; */
 
 }
 
@@ -298,7 +297,8 @@ main {
     }
 
     .teams-container,
-    .facts-container {
+    .facts-container,
+    .sponsor-img-container {
         grid-template-columns: 1fr;
     }
 
@@ -310,7 +310,11 @@ main {
         margin-left: 30px;
     }
 
+    .sponsor-img-container {
+        gap: 30px;
+        justify-items: center;
 
+    }
 }
 
 /* medium sizes devices */
@@ -319,6 +323,25 @@ main {
         flex-direction: column;
     }
 
+    .teams-container,
+    .facts-container,
+    .sponsor-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .facts-container {
+        justify-items: center;
+    }
+
+    .feature-list {
+        margin-left: 30px;
+    }
+
+    .sponsor-img-container {
+        gap: 30px;
+        justify-items: center;
+
+    }
 }
 
 
